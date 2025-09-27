@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:5432';
+const API_BASE_URL = 'http://localhost:8081';
 
 // A simple message box component for displaying feedback
 const MessageBox = ({ message, type }) => {
