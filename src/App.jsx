@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'http://localhost:9090';
+const API_BASE_URL = 'http://localhost:9090/jobback';
+fetch(`${API_BASE_URL}/user/signup`, { ... })
+fetch(`${API_BASE_URL}/user/signin`, { ... })
+fetch(`${API_BASE_URL}/jobs`, { ... })
+fetch(`${API_BASE_URL}/post-job`, { ... })
 
 // A simple message box component for displaying feedback
 const MessageBox = ({ message, type }) => {
